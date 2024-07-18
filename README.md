@@ -1,7 +1,7 @@
 # Resume Analysis and Job Matching System
 
 <p align="center">
-  <img src='./misc/logo1.svg' width=550>
+  <img src='mis/logo1.svg' width=550>
 </p>
 
 This project aims to assist users in applying for jobs by providing detailed analysis and reports based on their uploaded resumes and job descriptions.
