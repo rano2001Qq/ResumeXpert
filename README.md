@@ -23,7 +23,8 @@ This project aims to assist users in applying for jobs by providing detailed ana
 ### Report
 - Provides detailed analysis and insights based on the resume and job description.
 ![Miro Board Screenshot Done](https://res.cloudinary.com/dg9wkitg0/image/upload/v1721214039/zzybxdr7bclfizx48wes.png)
-![Miro Board Screenshot future Work](mis/need to do.png)
+![Miro Board Screenshot future Work](
+    <img src='mis/need to do.png' width=550>)
 
 ## Planned Features
 
