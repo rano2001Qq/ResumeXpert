@@ -4,7 +4,7 @@
 
 
 
-### 2. Start building software in one command:
+### Start building software in one command:
 
 - **Build Your Software:** Use the following command to initiate the building of your software:
 
