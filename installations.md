@@ -16,7 +16,7 @@
 
 - html, css and js currently are in one place.
 
-```commandline
+    ```commandline
 ├── static/ #This directory is typically used for storing static assets like CSS, JavaScript, and images.
 ├── templates/ #This directory contains HTML templates for the web pages.
 │   ├── 404.html  #The error page displayed when a page is not found.
