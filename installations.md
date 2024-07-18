@@ -12,7 +12,8 @@
    python app.py
    ```
 
-### 3. Check the code
+### Project Structure
+
 
 - html, css and js currently are in one place.
 
