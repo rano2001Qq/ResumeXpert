@@ -1,4 +1,5 @@
-# C2C-Resume-Analyzer
+📄 Resume Analysis and Job Matching System
+
 This Project is for the Peoples who are applying at the job and they want to Analyze there resumes.
 ## Interactive Component
 
