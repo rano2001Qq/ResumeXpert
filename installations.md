@@ -2,8 +2,7 @@
 
 ## Quick Start Step By Step
 
-### 1. Install `ResumeXpert`:
-- Visit the [quickstart section](README.md#%EF%B8%8F-quickstart) of Understanding of Project.
+
 
 ### 2. Start building software in one command:
 

@@ -6,6 +6,9 @@
 
 This project aims to assist users in applying for jobs by providing detailed analysis and reports based on their uploaded resumes and job descriptions.
 
+### 1. Install `ResumeXpert`:
+- Visit the [quickstart section](installations.md#%EF%B8%8F-quickstart) of Understanding of Project.
+
 ## Current Features
 
 ### User Interface
@@ -70,6 +73,7 @@ This project aims to assist users in applying for jobs by providing detailed ana
    - Optimize the system’s performance to ensure rapid data processing and report generation.
 
 You can view the interactive component on Miro by clicking [here](https://miro.com/welcomeonboard/NmVKY1cwQUlhY3JhYWphNXlIQ1VqNnhhN1hLRDZJWmE0cWczUWM2S3JWZFRIZExuNkkydzZGdGRISnFNOUxMNnwzNDU4NzY0NTY3NDA3MDI5OTU0fDI=?share_link_id=262308642756).
+
 
 
 [Visit Miro Board](https://miro.com/welcomeonboard/NmVKY1cwQUlhY3JhYWphNXlIQ1VqNnhhN1hLRDZJWmE0cWczUWM2S3JWZFRIZExuNkkydzZGdGRISnFNOUxMNnwzNDU4NzY0NTY3NDA3MDI5OTU0fDI=?share_link_id=563417039097)
