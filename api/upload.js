@@ -1,4 +1,4 @@
-const { MongoClient, Binary } = require('mongodb');
+
 const Busboy = require('busboy');
 const cors = require('cors');
 const pdfParse = require('pdf-parse');
@@ -91,39 +91,6 @@ module.exports = async (req, res) => {
           });
 
           console.log("External API response:", apiResponse.data);
-
-          // Now, store the data in MongoDB
-          const uri = process.env.MONGODB_URI;
-          if (!uri) {
-            console.error("MongoDB URI is not set");
-            throw new Error('Server configuration error');
-          }
-
-          console.log("Attempting to connect to MongoDB...");
-          const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-
-          await client.connect();
-          console.log("Connected to MongoDB");
-          const database = client.db('db');
-          const collection = database.collection('items');
-
-          console.log("Inserting document into MongoDB...");
-          const result = await collection.insertOne({
-            filename: fileName,
-            filetype: fileType,
-            filedata: new Binary(fileBuffer),
-            extractedText: extractedText,
-            job_description: job_description,
-            additional_information: additional_information,
-            experience: experience,
-            formData: formData,
-            apiResponse: apiResponse.data
-          });
-
-          console.log("File and API response successfully uploaded to MongoDB", result);
-
-          await client.close();
-          console.log("MongoDB connection closed");
 
           const safeExtractedText = safeEncodeURIComponent(extractedText);
           const safeApiResponse = safeEncodeURIComponent(JSON.stringify(apiResponse.data));
