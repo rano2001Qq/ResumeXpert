@@ -1,9 +1,11 @@
 {
     "version": 2,
     "builds": [
-      { "src": "app.py", "use": "@vercel/python" }
+      { "src": "api/upload.js", "use": "@vercel/node" },
+      { "src": "*.html", "use": "@vercel/static" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/app.py" }
+      { "src": "/api/upload", "dest": "/api/upload.js" },
+      { "src": "/(.*)", "dest": "/$1" }
     ]
   }
