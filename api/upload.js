@@ -69,7 +69,7 @@ app.post('/upload', async (req, res) => {
         extractedText = 'Error extracting text from PDF';
       }
 
-      const externalApiUrl = `https://c2c-ats-analyzer-api.vercel.app/submit?fileName=${safeEncodeURIComponent(fileName)}&fileType=${safeEncodeURIComponent(fileType)}&job_description=${safeEncodeURIComponent(job_description)}&additional_information=${safeEncodeURIComponent(additional_information)}&experience=${safeEncodeURIComponent(experience)}&ext-text=${safeEncodeURIComponent(extractedText)}`;
+      const externalApiUrl = `https://resume-test-api.vercel.app/submit?fileName=${safeEncodeURIComponent(fileName)}&fileType=${safeEncodeURIComponent(fileType)}&job_description=${safeEncodeURIComponent(job_description)}&additional_information=${safeEncodeURIComponent(additional_information)}&experience=${safeEncodeURIComponent(experience)}&ext-text=${safeEncodeURIComponent(extractedText)}`;
       const apiResponse = await axios.post(externalApiUrl, {
         fileName: fileName,
         fileType: fileType,
